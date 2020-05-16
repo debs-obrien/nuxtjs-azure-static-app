@@ -10,7 +10,7 @@
       <div class="links">
           <NuxtLink to="/about" class="button--green">about page</NuxtLink>
           <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/debs-obrien/nuxtjs-azure-static-app"
           target="_blank"
           class="button--grey"
         >
