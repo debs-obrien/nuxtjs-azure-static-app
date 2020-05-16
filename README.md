@@ -1,0 +1,1 @@
+# nuxtjs-azure-static-app
