@@ -34,7 +34,7 @@ p{
   margin: 0;
 }
 
-.button--green, a {
+.button--green{
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #3b8070;
@@ -43,9 +43,16 @@ p{
   padding: 10px 30px;
 }
 
-.button--green:hover, a:hover  {
+.button--green:hover  {
   color: #fff;
   background-color: #3b8070;
+}
+a{
+  color: #3b8070;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 .button--grey {

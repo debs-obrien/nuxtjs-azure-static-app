@@ -8,18 +8,21 @@
         Deploying your static site to Azure Static Web Apps
       </h2>
       <div class="links">
-          <ul>
+          <div>
+            <ul>
             <li>
-              <NuxtLink to="/about" class="button--green">about</NuxtLink>
+              <NuxtLink to="/about" >About page</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/spa-fallback" class="button--green">Spa Fallback</NuxtLink>
+              <NuxtLink to="/spa-fallback" >Spa Fallback page</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/404" class="button--green">Custom error page</NuxtLink>
+              <NuxtLink to="/404" >Custom error page</NuxtLink>
             </li>
           </ul>
-          <a
+          </div>
+          <div>
+            <a
           href="https://github.com/debs-obrien/nuxtjs-azure-static-app"
           target="_blank"
           class="button--grey"
@@ -29,6 +32,7 @@
         <a href="https://nuxtjs.org/faq/deployment-azure-static-web-apps" target="_blank" class="button--green">
           Documentation
         </a>
+          </div>
         
       </div>
     </div>
@@ -41,6 +45,19 @@ export default {}
 
 <style scoped>
 .links {
+  display: flex;
+  flex-direction: column;
   padding-top: 15px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  text-align: center;
+  justify-content: center;
+}
+li{
+  padding: 0 20px;
 }
 </style>
