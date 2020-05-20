@@ -1,5 +1,5 @@
 export default {
     generate:{
-        exclude: [/about/]
+        exclude: [/spa-fallback/]
     }
 }

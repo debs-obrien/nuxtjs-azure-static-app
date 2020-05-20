@@ -8,7 +8,17 @@
         Deploying your static site to Azure Static Web Apps
       </h2>
       <div class="links">
-          <NuxtLink to="/about" class="button--green">about page</NuxtLink>
+          <ul>
+            <li>
+              <NuxtLink to="/about" class="button--green">about</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/spa-fallback" class="button--green">Spa Fallback</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/404" class="button--green">Custom error page</NuxtLink>
+            </li>
+          </ul>
           <a
           href="https://github.com/debs-obrien/nuxtjs-azure-static-app"
           target="_blank"
@@ -16,8 +26,8 @@
         >
           GitHub
         </a>
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Nuxt Documentation
+        <a href="https://nuxtjs.org/faq/deployment-azure-static-web-apps" target="_blank" class="button--green">
+          Documentation
         </a>
         
       </div>

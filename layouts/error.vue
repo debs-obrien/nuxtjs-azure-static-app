@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Opps no page found</h1>
+        <h1>This is a custom error page</h1>
         <NuxtLink to="/">Back to Home</NuxtLink>
     </div>
 </template>
